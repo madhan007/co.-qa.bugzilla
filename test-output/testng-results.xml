@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46137" started-at="2018-08-10T20:00:55Z" finished-at="2018-08-10T20:01:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46137" started-at="2018-08-10T20:00:55Z" finished-at="2018-08-10T20:01:41Z">
+      <class name="com.bugzilla.testcases.FileUploadTest">
+        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:com.bugzilla.testcases.FileUploadTest@42eca56e]" name="startUp" is-config="true" duration-ms="20735" started-at="2018-08-10T20:00:55Z" finished-at="2018-08-10T20:01:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="fileUpLoad()[pri:0, instance:com.bugzilla.testcases.FileUploadTest@42eca56e]" name="fileUpLoad" duration-ms="23218" started-at="2018-08-10T20:01:16Z" finished-at="2018-08-10T20:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUpLoad -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bugzilla.testcases.FileUploadTest@42eca56e]" name="tearDown" is-config="true" duration-ms="2124" started-at="2018-08-10T20:01:39Z" finished-at="2018-08-10T20:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bugzilla.testcases.FileUploadTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
