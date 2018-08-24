@@ -25,6 +25,7 @@ public class FileaBugTest extends BaseClass {
 			e.printStackTrace();
 			System.err.println("Title assertion failed");
 		}
+		LinkHelper.clickOnLink("TestNG");
 		DropdownHelper.selectByValue("bug_severity","minor");
 		DropdownHelper.selectByVisibleText("rep_platform", "Macintosh");
 		TextBoxHelper.typeInTextBox("comment", "Testing the comment section");

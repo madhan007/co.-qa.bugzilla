@@ -16,7 +16,7 @@ import helpers.TextBoxHelper;
 
 public class FileUploadTest extends  BaseClass {
 
-	@Test
+	@Test(enabled=false)
 	public void fileUpLoad() throws Exception {
 
 		LinkHelper.clickOnLink("enter_bug");

@@ -13,7 +13,7 @@ import helpers.TextBoxHelper;
 public class QuickSearchHelpLinkTest extends BaseClass {
 	
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void qshLink() {
 	
 		TextBoxHelper.typeInTextBox("quicksearch_main", "File a bug");
@@ -25,7 +25,7 @@ public class QuickSearchHelpLinkTest extends BaseClass {
 		TextBoxHelper.typeInTextBox("Bugzilla_password", "madhan143");
 		ButtonHelper.clickButton("log_in");
 		try {
-			Assert.assertEquals(driver.getTitle(), "Enter Bug: TestProduct");
+			Assert.assertEquals(driver.getTitle(), "Enter Bug");
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.err.println("Title assertion failed");
