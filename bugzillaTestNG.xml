@@ -3,8 +3,12 @@
 <suite name="Suite">
 <parameter name="Browser" value="firefox"/>
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.bugzilla.testcases.FileUploadTest"/>
-    </classes>
+ <classes>
+ <class name="com.bugzilla.testcases.DemoTest"/>
+ <class name="com.bugzilla.testcases.FileaBugTest"/>
+ <class name="com.bugzilla.testcases.LoginTest"/>
+ <class name="com.bugzilla.testcases.QuickSearchHelpLinkTest"/>
+ </classes>
+  
   </test> <!-- Test -->
 </suite> <!-- Suite -->

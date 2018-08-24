@@ -20,7 +20,7 @@ public class FileaBugTest extends BaseClass {
 		TextBoxHelper.typeInTextBox("Bugzilla_password", "madhan143");
 		ButtonHelper.clickButton("log_in");
 		try {
-			Assert.assertEquals(driver.getTitle(), "Enter Bug: TestProduct");
+			Assert.assertEquals(driver.getTitle(), "Enter Bug");
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.err.println("Title assertion failed");

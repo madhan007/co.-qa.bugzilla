@@ -24,6 +24,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.0</version>
 				<configuration>
+				<testFailureIgnore>true</testFailureIgnore>
 					<suiteXmlFiles>
 						<suiteXmlFile>bugzillaTestNG.xml</suiteXmlFile>
 					</suiteXmlFiles>
@@ -49,16 +50,11 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.14.0</version>
 		</dependency>
-<!-- https://mvnrepository.com/artifact/org.sikuli/sikuli-api -->
-<dependency>
-    <groupId>com.sikulix</groupId>
-    <artifactId>sikulixapi</artifactId>
-    <version>1.1.0</version>
-</dependency>
-
-
-
-
-
+		<!-- https://mvnrepository.com/artifact/org.sikuli/sikuli-api -->
+		<dependency>
+			<groupId>com.sikulix</groupId>
+			<artifactId>sikulixapi</artifactId>
+			<version>1.1.0</version>
+		</dependency>
 	</dependencies>
 </project>
