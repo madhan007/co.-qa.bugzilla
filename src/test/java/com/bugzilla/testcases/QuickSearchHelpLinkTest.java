@@ -30,7 +30,8 @@ public class QuickSearchHelpLinkTest extends BaseClass {
 			e.printStackTrace();
 			System.err.println("Title assertion failed");
 		}
-		DropdownHelper.selectByValue("bug_severity","minor");
+		LinkHelper.clickOnLink("TestNG");
+		DropdownHelper.selectByVisibleText("bug_severity","minor");
 		DropdownHelper.selectByVisibleText("rep_platform", "Macintosh");
 		TextBoxHelper.typeInTextBox("comment", "Testing the comment section");
 		ButtonHelper.clickSubmitButton("commit");

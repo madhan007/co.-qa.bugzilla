@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46137" started-at="2018-08-10T20:00:55Z" finished-at="2018-08-10T20:01:41Z">
+  <suite name="Suite" duration-ms="51657" started-at="2018-08-24T14:52:51Z" finished-at="2018-08-24T14:53:42Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="46137" started-at="2018-08-10T20:00:55Z" finished-at="2018-08-10T20:01:41Z">
-      <class name="com.bugzilla.testcases.FileUploadTest">
-        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:com.bugzilla.testcases.FileUploadTest@42eca56e]" name="startUp" is-config="true" duration-ms="20735" started-at="2018-08-10T20:00:55Z" finished-at="2018-08-10T20:01:16Z">
+    <test name="Test" duration-ms="51657" started-at="2018-08-24T14:52:51Z" finished-at="2018-08-24T14:53:42Z">
+      <class name="com.bugzilla.testcases.QuickSearchHelpLinkTest">
+        <test-method status="PASS" signature="startUp(java.lang.String)[pri:0, instance:com.bugzilla.testcases.QuickSearchHelpLinkTest@74a10858]" name="startUp" is-config="true" duration-ms="13135" started-at="2018-08-24T14:52:51Z" finished-at="2018-08-24T14:53:04Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="fileUpLoad()[pri:0, instance:com.bugzilla.testcases.FileUploadTest@42eca56e]" name="fileUpLoad" duration-ms="23218" started-at="2018-08-10T20:01:16Z" finished-at="2018-08-10T20:01:39Z">
+        <test-method status="PASS" signature="qshLink()[pri:0, instance:com.bugzilla.testcases.QuickSearchHelpLinkTest@74a10858]" name="qshLink" duration-ms="35835" started-at="2018-08-24T14:53:04Z" finished-at="2018-08-24T14:53:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fileUpLoad -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bugzilla.testcases.FileUploadTest@42eca56e]" name="tearDown" is-config="true" duration-ms="2124" started-at="2018-08-10T20:01:39Z" finished-at="2018-08-10T20:01:41Z">
+        </test-method> <!-- qshLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bugzilla.testcases.QuickSearchHelpLinkTest@74a10858]" name="tearDown" is-config="true" duration-ms="2618" started-at="2018-08-24T14:53:40Z" finished-at="2018-08-24T14:53:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.bugzilla.testcases.FileUploadTest -->
+      </class> <!-- com.bugzilla.testcases.QuickSearchHelpLinkTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -4,13 +4,13 @@
   <parameter name="Browser" value="firefox"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.bugzilla.testcases.FileUploadTest">
+      <class name="com.bugzilla.testcases.QuickSearchHelpLinkTest">
         <methods>
           <include name="tearDown"/>
-          <include name="fileUpLoad"/>
+          <include name="qshLink"/>
           <include name="startUp"/>
         </methods>
-      </class> <!-- com.bugzilla.testcases.FileUploadTest -->
+      </class> <!-- com.bugzilla.testcases.QuickSearchHelpLinkTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

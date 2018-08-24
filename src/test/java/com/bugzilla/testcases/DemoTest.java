@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class DemoTest {
 	
-	@Test
+	@Test(enabled=true)
 	public void demotesting() {
 		System.out.println("demo testing for github");
 	}
